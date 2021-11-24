@@ -47,5 +47,9 @@ configs:
           - main
           - releases/*
 
+github-apps:
+  - name: Code Inspector
+  - name: Sider
+  
 init:
  uses: ".github/workflows/stack-init.yml"
