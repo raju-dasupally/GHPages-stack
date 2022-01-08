@@ -27,8 +27,10 @@ jobs:
         check-latest: true
         registry-url: https://registry.npmjs.org/
     
-    - name: "Generating angular code"
+    - name: "Install angular code"
       run: |
         npm install - g @angular/cli
-        ng new myNewApp
+        
+    - name: "Generate Angular code"
+      run: ng new myNewApp
       
