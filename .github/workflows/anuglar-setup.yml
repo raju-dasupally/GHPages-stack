@@ -29,7 +29,7 @@ jobs:
     
     - name: "Install angular code"
       run: |
-        npm install - g @angular/cli
+        npm install -g @angular/cli@latest
         
     - name: "Generate Angular code"
       run: ng new myNewApp
