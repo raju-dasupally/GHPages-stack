@@ -1,14 +1,13 @@
 version: 0.1.0                                            
 
-name: Test raju-dasupally           
+name: Test-raju-dasupally           
 description: Test 3loka       
 
 branding:                                              
   icon: 'package'
   color: 'black'
 
-inputs:                                                
-    
+inputs:                                                   
   - name: NODE_VERSION                                 
     default: v12.22.4                              
     description: NODE_VERSION for nodejs stack         
