@@ -52,4 +52,4 @@ github-apps:
   - name: Sider
   
 init:
- uses: ".github/workflows/stack-init.yml"
+  uses: ".github/workflows/stack-init.yml"
